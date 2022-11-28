@@ -30,5 +30,15 @@ public class Main {
         short shortVar3 = -159;
         short shortVar4 = 27897;
         byte byteVar3 = 67;
+
+        // Задание 3
+        System.out.println("Задание 3");
+        byte firstClass = 23;
+        byte secondClass = 27;
+        byte thirdClass = 30;
+        int allKids = firstClass + secondClass + thirdClass;
+        short amountPaper = 480;
+        int paperPerKid = amountPaper / allKids;
+        System.out.println("На каждого ученика рассчитано " + paperPerKid + " листов бумаги");
     }
 }
