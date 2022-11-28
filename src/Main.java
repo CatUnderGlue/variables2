@@ -54,5 +54,17 @@ public class Main {
         System.out.println("За сутки машина произвела бутылок " + machineEfficiency3 + " штук");
         System.out.println("За 3 дня машина произвела бутылок " + machineEfficiency4 + " штук");
         System.out.println("За месяц машины произвела бутылок " + machineEfficiency5 + " штук");
+
+        // Задание 5
+        System.out.println("Задание 5");
+        byte totalCans = 120;
+        byte white = 2;
+        byte brown = 4;
+        int perClass = white + brown;
+        int classAmount = totalCans / perClass; // Всего классов - 20
+        int totalWhite = white * classAmount; // Всего белой
+        int totalBrown = brown * classAmount; // Всего коричневой
+        System.out.println("В школе, где " + classAmount + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
+
     }
 }
