@@ -97,5 +97,24 @@ public class Main {
         System.out.println("Чтобы сбросить " + weightInKg + " кг, потребуется " + daysPerGr1 + " дней, если сбрасывать по " + gr1 + " грамм в день");
         System.out.println("Чтобы сбросить " + weightInKg + " кг, потребуется " + daysPerGr2 + " дней, если сбрасывать по " + gr2 + " грамм в день");
 
+        // Задание 8
+        System.out.println("Задание 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+
+        int mashaIncreased = masha + (masha / 100 * 10);
+        int mashaDifference = mashaIncreased % masha;
+
+        int denisIncreased = denis + (denis / 100 * 10);
+        int denisDifference = denisIncreased % denis;
+
+        int kristinaIncreased = kristina + (kristina / 100 * 10);
+        int kristinaDifference = kristinaIncreased % kristina;
+
+        System.out.println("Маша теперь получает " + mashaIncreased + " рублей. Годовой доход вырос на " + mashaDifference + " рублей");
+        System.out.println("Денис теперь получает " + denisIncreased + " рублей. Годовой доход вырос на " + denisDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaIncreased + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
+
     }
 }
