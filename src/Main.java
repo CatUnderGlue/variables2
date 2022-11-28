@@ -40,5 +40,19 @@ public class Main {
         short amountPaper = 480;
         int paperPerKid = amountPaper / allKids;
         System.out.println("На каждого ученика рассчитано " + paperPerKid + " листов бумаги");
+
+        // Задание 4
+        System.out.println("Задание 4");
+        int machineEfficiency = 16; // Производительность за 2 минуты
+        int machineEfficiency2 = machineEfficiency * 10; // Производительность за 20 минут
+        int minuteInDay = 60 * 24;
+        int machineEfficiency3 = minuteInDay * 8; // Производительность за сутки
+        int machineEfficiency4 = minuteInDay * 3 * 8; // Производительность за 3 дня
+        int machineEfficiency5 = minuteInDay * 30 * 8; // Производительность за месяц
+        System.out.println("За 2 минуты машина произвела бутылок " + machineEfficiency + " штук");
+        System.out.println("За 20 минут машина произвела бутылок " + machineEfficiency2 + " штук");
+        System.out.println("За сутки машина произвела бутылок " + machineEfficiency3 + " штук");
+        System.out.println("За 3 дня машина произвела бутылок " + machineEfficiency4 + " штук");
+        System.out.println("За месяц машины произвела бутылок " + machineEfficiency5 + " штук");
     }
 }
