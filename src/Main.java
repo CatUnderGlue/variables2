@@ -86,5 +86,16 @@ public class Main {
         float totalWeightKg = totalWeightGr / (float)grPerKg;
         System.out.println("Итоговый вес: " + totalWeightKg + " кг");
 
+        // Задание 7
+        System.out.println("Задание 7");
+        int weightInKg = 7;
+        int weightInGr = 7 * 1000;
+        int gr1 = 250;
+        int gr2 = 500;
+        int daysPerGr1 = weightInGr / gr1;
+        int daysPerGr2 = weightInGr / gr2;
+        System.out.println("Чтобы сбросить " + weightInKg + " кг, потребуется " + daysPerGr1 + " дней, если сбрасывать по " + gr1 + " грамм в день");
+        System.out.println("Чтобы сбросить " + weightInKg + " кг, потребуется " + daysPerGr2 + " дней, если сбрасывать по " + gr2 + " грамм в день");
+
     }
 }
