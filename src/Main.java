@@ -66,5 +66,25 @@ public class Main {
         int totalBrown = brown * classAmount; // Всего коричневой
         System.out.println("В школе, где " + classAmount + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
 
+        // Задание 6
+        System.out.println("Задание 6");
+        int bananaAmount = 5;
+        int banana = 80;
+        int milkAmount = 200;
+        int milkPer100Ml = 105;
+        int icecreamAmount = 2;
+        int icecream = 100;
+        int eggAmount = 4;
+        int egg = 70;
+
+        int totalBanana = bananaAmount * banana;
+        int totalMilk = milkAmount / 100 * milkPer100Ml;
+        int totalIcecream = icecreamAmount * icecream;
+        int totalEgg = eggAmount * egg;
+        int totalWeightGr = totalBanana + totalMilk + totalIcecream + totalEgg;
+        int grPerKg = 1000;
+        float totalWeightKg = totalWeightGr / (float)grPerKg;
+        System.out.println("Итоговый вес: " + totalWeightKg + " кг");
+
     }
 }
