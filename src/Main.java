@@ -15,5 +15,20 @@ public class Main {
         System.out.println("Значение переменной long: " + firstLongVar);
         System.out.println("Значение переменной float: " + firstFloatVar);
         System.out.println("Значение переменной double: " + firstDoubleVar);
+
+        // Задание 2
+        System.out.println("Задание 2");
+        float floatVar = 27.12f;
+        int intVar1 = 987;
+        int intVar2 = 678;
+        int intVar3 = 965;
+        short shortVar = 549;
+        byte byteVar = 2;
+        short shortVar2 = 786;
+        boolean flag = false;
+        int intVar4 = 569;
+        short shortVar3 = -159;
+        short shortVar4 = 27897;
+        byte byteVar3 = 67;
     }
 }
